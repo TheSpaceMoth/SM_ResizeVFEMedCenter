@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>VFE Vitals Control Centre Resize</name>
+  <author>SpaceMoth</author>
+  <url></url>
+  <packageId>Spacemoth.VFAVCCRsze</packageId>
+  <description>Tweaks the size of the Vanilla Furniture Expanded Medical Module's Vitals Control Centre, so it looks better on screen and takes up only 1 by 3 instead of 2 by 3.
+</description>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>VanillaExpanded.VFEMedical</packageId>
+            <displayName>Vanilla Furniture Expanded - Medical Module</displayName>
+            <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1718191613</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/1718191613</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>VanillaExpanded.VFEMedical</li>
+    </loadAfter>
+</ModMetaData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class = "PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Facility_VitalsCentre"]/size</xpath>
+	<value>
+		<size>(3,1)</size>
+	</value>
+</Operation>
+
+<!--
+<Operation Class = "PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Facility_VitalsCentre"]</xpath>
+	<value>
+		<drawOffset>(0.0,0.1)</drawOffset>
+	</value>
+</Operation>
+-->
+</Patch>
